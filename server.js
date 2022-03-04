@@ -4,8 +4,8 @@ var app = express();
 var mysql = require("mysql");
 var connection = mysql.createConnection({
   host     : process.env.DB_HOST || '54.193.19.162',
-  user     : process.env.DB_USER || 'user',
-  password : process.env.DB_PASS || 'manager',
+  user     : process.env.DB_USER || 'julian',
+  password : process.env.DB_PASS || 'password123',
   database : process.env.DB_NAME || 'movie_db'
 });
 
